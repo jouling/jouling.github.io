@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@font-face{
+    font-family: KGInimitable;
+    src: url(../assets/font/KGInimitableOriginal.ttf);
+}
+
+@font-face{
+    font-family: Lato;
+    src: url(../assets/font/Lato-Regular.ttf);
+
+}
+
+body{
+    margin: 0;
+    background-color: #dfdfdf;
+    font-family: Lato, sans-serif; 
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #001064;
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    box-shadow: 0px 3px 5px 0px rgba(117,117,117,1);
+}
+
+nav img{
+	width: 100px;
+	height: 70px; 
+}
+
+nav ul{
+	display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#juliana-index{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 80px;
+    font-family: KGInimitable;
+    text-transform: uppercase;
+    font-size: 38px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    padding-bottom: 0;
+    justify-content: center;
+    display: flex;
+}
+
+#proibido:hover{
+    cursor: no-drop;
+}
